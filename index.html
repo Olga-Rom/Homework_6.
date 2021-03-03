@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Homework 6</title>
+</head>
+
+<body>
+	<a href="" class="button">Регистрация</a>
+	<a href="" class="button__2">Войти</a>
+	<div class="container">
+		<div class="block">
+			<p>
+				Я блок, отцентрован с помощью 'margin: 0px auto' и для этог было сделано ограничения блока по ширине с
+				помощью "max-width". Еще могу двигаться влево и вправо (margin: 0px auto 0px 0px; , margin: 0px 0px 0px
+				auto;)
+			</p>
+		</div>
+	</div>
+	<div class="article">
+		<img src="img/forest4.png" alt="" class="article__img">
+		Я блок со статьей и картинкой и что бы текст красиво обтекал картинку нужно применить к картинке "float:
+		right-картинка будет справо или float: left-картинка будет слево. Но не все так просто т.к. картинка будет
+		выпадать, и что бы иправить эту ситуацию необходимо в сам блок с картиной и статьей добавить еще один элемент и
+		воздествовать на него с помощью свойства "clear: both". Это ЕДИНСТВЕННЫЙ случай , когда пригодится "float". И еще у меня есть тени : внешняя тень, мульти тень и если присмотреться внутреняя тень тоже есть.Я блок со статьей и картинкой и что бы текст красиво обтекал картинку нужно применить к картинке "float:
+		right-картинка будет справо или float: left-картинка будет слево. Но не все так просто т.к. картинка будет
+		выпадать, и что бы иправить эту ситуацию необходимо в сам блок с картиной и статьей добавить еще один элемент и
+		воздествовать на него с помощью свойства "clear: both". Это ЕДИНСТВЕННЫЙ случай , когда пригодится "float". И еще у меня есть тени : внешняя тень, мульти тень и если присмотреться внутреняя тень тоже есть.
+		
+		<div class="item"></div>
+	</div>
+	<div class="block__border">
+		<p class="text__border1">Я просто блок с текстом и границей border: 10px solid goldenrod;.Я просто блок с текстом и границей border: 10px solid goldenrod;.
+		</p>
+		<p class="text__border2">Я просто блок с текстом и границей border: 10px dashed goldenrod;.Я просто блок с текстом и границей border: 10px dashed goldenrod;.
+		</p>
+		<p class="text__border3">Я просто блок с текстом и границей border: 10px dotted goldenrod;.Я просто блок с текстом и границей border: 10px dotted goldenrod;.
+		</p>
+		<p class="text__border4">Я просто блок с текстом и границей border: 10px double goldenrod;.Я просто блок с текстом и границей border: 10px double goldenrod;.
+		</p>
+		<p class="text__border5">И я просто блок с текстом и границами  border: 10px solid goldenrod; border-top: 10px dotted goldenrod;
+			border-bottom: 10px dashed goldenrod;
+			border-right: 10px double goldenrod;
+		</p>
+	</div>
+	<div class="block__inline">
+		<span class="inlin__border">Я строчный элемент и на меня вот так влияет "border". Я строчный элемент и на меня вот
+			так влияет "border". Я строчный элемент и на меня вот так влияет "border". Я строчный элемент и на меня вот так
+			влияет "border". Я строчный элемент и на меня вот так влияет "border". Я строчный элемент и на меня вот так
+			влияет "border". Я строчный элемент и на меня вот так влияет "border". Я строчный элемент и на меня вот так
+			влияет "border".
+		</span>
+	</div>
+	<div class="block__inline-radius">
+		<span class="blockinline">Я строчный элемент и на меня вот так влияет "border-radius 50% ".Я строчный элемент и на меня вот так влияет "border-radius".Я строчный элемент и на меня вот так влияет "border-radius".Я строчный элемент и на меня вот так влияет "border-radius 50%".Я строчный элемент и на меня вот так влияет "border-radius".Я строчный элемент и на меня вот так влияет "border-radius".Я строчный элемент и на меня вот так влияет "border-radius".
+		</span>
+	</div>
+	<div class="block__block">
+		<span class="block__radius">А я был строчным элементом ,а теперь стал строчно-блочным  с помошью свойства "display: inline-block" и  вот так влияет  на меня "border-radius 50%".А я был строчным элементом ,а   теперь стал строчно-блочным  с помошью свойства "display: inline-block" и  вот так влияет  на меня "border-radius 50%".А я был строчным элементом ,а   теперь стал строчно-блочным  с помошью свойства "display: inline-block" и  вот так влияет  на меня "border-radius 50%".А я был строчным элементом ,а   теперь стал строчно-блочным  с помошью свойства "display: inline-block" и  вот так влияет  на меня "border-radius 50%".
+		</span>
+	</div>
+	<div class="block-main__scroll-1">
+		<div class="block__scroll-1">
+			<p class="block-scroll__text-1">
+				<img src="img/rose.png" alt="роза" class="foto-rose">
+				Я блочный элемент со скроллом, который  спрятялся в рамке <span class="span1">"border:10px dashed goldenrod"</span>  и еще решил сделать внешнюю рамку с помощью <span class="span2">outline:10px dotted goldenrod;</span> но мне нужно запомнить, что outlline может "залесть" на окружающие объекты т.к она мнимая граница.Я блочный элемент со скроллом, который  спрятялся в рамке <span class="span1">"border:10px dashed goldenrod"</span>  и еще решил сделать внешнюю рамку с помощью <span class="span2">outline:10px dotted goldenrod;</span class="span2"> но мне нужно запомнить, что outlline может "залесть" на окружающие объекты т.к она мнимая граница.Я блочный элемент со скроллом, который  спрятялся в рамке <span class="span1">"border:10px dashed goldenrod"</span>  и еще решил сделать внешнюю рамку с помощью <span class="span2">outline:10px dotted goldenrod;</span class="span2"> но мне нужно запомнить, что outlline может "залесть" на окружающие объекты т.к она мнимая граница.Я блочный элемент со скроллом, который  спрятялся в рамке <span class="span1">"border:10px dashed goldenrod"</span>  и еще решил сделать внешнюю рамку с помощью <span class="span2">outline:10px dotted goldenrod;</span class="span2"> но мне нужно запомнить, что outlline может "залесть" на окружающие объекты т.к она мнимая граница.
+			</p>
+	</div>
+	</div>
+	<div class="block-main__scroll-2">
+		<div class="block__scroll-2">
+			<p class="block-scroll__text-2">
+				<img src="img/rose.png" alt="роза" class="foto-rose">
+				Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">	"border:10px dashed goldenrod ; border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ; border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ; border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ; border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ;border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ;border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ;border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ;border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ;border-radius: 50%;"</span> .Я блочный элемент со скроллом, который хочет спрятаться в рамке <span class="span1">"border:10px dashed goldenrod ;border-radius: 50%;"</span>.
+			</p>
+		</div>
+		
+		
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <a href="" class="button">SIGN UP NOW</a>
+
+		<div class="block">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint et aspernatur in suscipit veniam assumenda laboriosam iste, odio fuga repudiandae tenetur totam asperiores commodi modi at, nihil pariatur, quos numquam.
+		</div>
+
+		
+		<div class="wrapper">
+			<div class="block">
+				Lorem ipsum <span>dolor</span> sit amet <a href="">consectetur</a> adipisicing elit. Est aperiam voluptates, iste at voluptatibus commodi totam temporibus fuga debitis veritatis? Dolores ad vel, aut sint praesentium ducimus accusamus molestiae corporis?
+			</div>
+		</div>
+	
+		
+		<div class="block-scroll">
+			<div class="block-scroll__inner">
+				Я блочный. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aspernatur, nostrum unde omnis fugiat in ut nobis error amet eum incidunt minus cumque ex quas ipsam expedita dolore necessitatibus? Molestias.
+				Я блочный. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aspernatur, nostrum unde omnis fugiat in ut nobis error amet eum incidunt minus cumque ex quas ipsam expedita dolore necessitatibus? Molestias.
+			</div>
+		</div>
+	
+		
+		<img src="img/image.jpg" alt="" class="image">
+		<span class="inline">
+			Я строчный. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, necessitatibus! Voluptates praesentium autem harum itaque earum pariatur numquam reprehenderit, deleniti, veniam ipsam placeat doloremque velit molestias ab quae dicta dolores!
+		</span>
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 
+		<div class="article">
+			<img class="article__image" src="img/image.jpg" alt="">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum, repudiandae in magnam beatae animi velit tempore sapiente recusandae asperiores temporibus accusantium nulla illum error. Earum quibusdam adipisci sit labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum, repudiandae in magnam beatae animi velit tempore sapiente recusandae asperiores temporibus accusantium nulla illum error. Earum quibusdam adipisci sit labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum, repudiandae in magnam beatae animi velit tempore sapiente recusandae asperiores temporibus accusantium nulla illum error. Earum quibusdam adipisci sit labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum, repudiandae in magnam beatae animi velit tempore sapiente recusandae asperiores temporibus accusantium nulla illum error. Earum quibusdam adipisci sit labore!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum, repudiandae in magnam beatae animi velit tempore sapiente recusandae asperiores temporibus accusantium nulla illum error. Earum quibusdam adipisci sit labore!s
+			<div class="item"></div>
+		</div>
+ 		-->
+
+	<!-- 
+		<div class="items">
+			<div class="item">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellat!
+			</div>
+			<div class="item">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellat!
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellat!
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellat!
+			</div>
+			<div class="item">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellat!
+			</div>
+			<div class="item">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellat!
+			</div>
+		</div>
+ 		-->
+	<!--  
+		<div class="block">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa dolor natus ea consectetur! Fugiat hic illo quis rerum cupiditate fugit eum maxime, ea iure unde ipsum non corporis rem.
+		</div>
+		-->
+	<!-- 
+		<ul class="list">
+			<li>
+				<a href="" class="link">Я ссылка</a>
+			</li>
+			<li>
+				<a href="" class="link">Я ссылка</a>
+			</li>
+			<li>
+				<a href="" class="link">Я ссылка</a>
+			</li>
+			<li>
+				<a href="" class="link">Я ссылка</a>
+			</li>
+		</ul>
+		 -->
+</body>
+
+</html>
